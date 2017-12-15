@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "628418272454",
+    "firebase_url": "https://tutproject-2b127.firebaseio.com",
+    "project_id": "tutproject-2b127",
+    "storage_bucket": "tutproject-2b127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628418272454:android:42cd2be3622ddb08",
+        "android_client_info": {
+          "package_name": "com.example.team_leader.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628418272454-ugsnbgsb5vjg9ihohefrm9u957mnkdbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaP44kMOUfidTjT5aEMS4kUBurYL6hIz0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

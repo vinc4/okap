@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#28282F"
+    tools:context="com.example.team_leader.project.MainActivity">
+
+    <com.example.team_leader.project.ImageView.HexagonMaskView
+        android:id="@+id/logo"
+        android:layout_marginTop="70dp"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:src="@drawable/logo"
+        android:layout_marginBottom="30dp">
+    </com.example.team_leader.project.ImageView.HexagonMaskView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/logo"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="121dp"
+        android:text="@string/appname"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        />
+
+
+        <Button
+            android:layout_centerInParent="true"
+            android:layout_marginTop="200dp"
+            android:layout_below="@+id/logo"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:id="@+id/btnFBL"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:text="Facebook Login" />
+
+        <Button
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textColor="#28282F"
+            android:background="#fff"
+            android:layout_below="@+id/btnFBL"
+            android:id="@+id/btnG"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:text="Google Login" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="Terms and Conditions"
+        android:layout_gravity="center"
+
+        android:id="@+id/textView" />
+
+
+
+
+</RelativeLayout>
